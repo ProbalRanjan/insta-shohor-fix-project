@@ -56,6 +56,40 @@
         <div id="reported">
             <h1>Reported posts</h1>
         </div>
+
+        <!-- Q/A Section -->
+        <section class="pt-5">
+            <h2 class="text-center">Q&A Section</h2>
+            <h4>Q1: How does Javascript work?</h4>
+            <p>Ans: Javascript is one of the popular programming language and most efficient and client-side scripting
+                language. Client-side scripting language means it runs inside a browser or client machine by connecting
+                the web server. When a web page is load that contains with javascript code in the browser, the built-in
+                interpreter of the browser finds code from the page and reads the code and runs it. But different
+                browser use their different engine to run JS code. </p>
+            <h4>Q2: What does Javascript Event loop do?</h4>
+            <p> Ans: When javascript runs, it has two things that are stack and queue. Calling one function from another
+                is stack and queue is a collection of ordered items where the new code run when one end. When the
+                runtime of javascript code is call one by one function is a stack of frames and at the end of the stack
+                the queue is run asynchronous way in the console by the setTimeout method. So javascript event loop is a
+                pattern of design that waits and dispatches for the events or messages in the program.
+            </p>
+            <h4>Q3: Difference between Local Storage and Session Storage?</h4>
+            <p> Ans: <br> <span class="fw-bolder">#LocalStorage:</span> LocalStorage store the data on the browser and
+                never get
+                lost even if the browser will close and it has no expiration date. Data persistence of LocalStorage
+                needs to delete via JS or manually. The data type is key-value pair and both are strings. When a data
+                for a document is loaded on private or incognito mode, the session is cleared when the tab is closed in
+                LocalStorage.
+
+                <br>
+
+                <span class="fw-bolder">#SessionStorage:</span> SessionStorage store data for one session and delete the
+                data after the session ends or closing the tab or
+                browser. When a document is loaded in a tab in the browser, SessionStorage only capture the page and
+                valided for that tab. It always creates new SessionStorage for each tab when the same URL open in
+                multiple tabs. The keys-value pair automatically converted to strings.
+            </p>
+        </section>
     </main>
     <footer></footer>
 
